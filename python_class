@@ -1,1 +1,36 @@
-
+>>> 3<4 and 4<5
+True
+>>> 3>4 and 4<5
+False
+>>> 3<4 and 4>5
+False
+>>> 3>4 and 4>5
+False
+>>> 3<4 or 4<5
+True
+>>> 3>4 or 4<5
+True
+>>> 3<4 or 4>5
+True
+>>> 3>4 or 4>5
+False
+>>> not true
+Traceback (most recent call last):
+  File "<pyshell#41>", line 1, in <module>
+    not true
+NameError: name 'true' is not defined
+>>> not True
+False
+>>> not False
+True
+>>> not 250
+False
+>>> 3 and 4
+4
+>>> 4 or 5
+4
+>>> "FishC" and "Love"
+'Love'
+>>> "FishC" or 250
+'FishC'
+>>> 
